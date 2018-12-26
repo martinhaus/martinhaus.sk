@@ -1,0 +1,35 @@
+baseURL = "http://martinhaus.sk/"
+languageCode = "sk-Sk"
+title = "Martin Hauskrecht"
+theme = "dimension"
+defaultContentLanguage = "sk"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+
+[params]
+  logo = "fa-desktop"
+  copyright = "Martin Hauskrecht"
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/martin-hauskrecht-3555b1151/"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/martinhaus"
+
+[languages]
+[languages.sk]
+languageName = "Slovak"
+weight = 1
+description = "“Najdôležitejšia vlastnosť programu je, či napĺňa úmysel svojho používateľa.” <br> C.A.R. Hoare"
+about = "Vývoj softvéru"
+
+[languages.en]
+languageName = "English"
+weight = 2
+description = "<br>“The most important property of a program is whether it accomplishes the intention of its user.” <br> C.A.R. Hoare"
+about = "software development"
+
